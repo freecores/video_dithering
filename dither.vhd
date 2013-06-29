@@ -60,7 +60,7 @@ begin
         
             intermediate_color(1) := ("0" & unsigned(din_r)) + dither_buffer_next(1) + unsigned(dither_buffer_fromRam(1));
             intermediate_color(2) := ("0" & unsigned(din_g)) + dither_buffer_next(2) + unsigned(dither_buffer_fromRam(2));
-            intermediate_color(3) := ("0" & unsigned(din_b)) + dither_buffer_next(3) + unsigned(dither_buffer_fromRam(2));
+            intermediate_color(3) := ("0" & unsigned(din_b)) + dither_buffer_next(3) + unsigned(dither_buffer_fromRam(3));
             
             for c in 1 to 3 loop
 
